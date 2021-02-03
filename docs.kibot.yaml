@@ -39,4 +39,12 @@ outputs:
 
   - pcbdraw:
     dir: docs
-    show_components: all
+    name: 'pcb-with-components'
+    options:
+      show_components: all
+
+  - pcbdraw:
+    dir: docs
+    name: 'pcb-without-components'
+    options:
+      show_components: none
