@@ -7,10 +7,6 @@ on:
     - '**.kicad_pcb'
     - '**.net'
   pull_request:
-    paths:
-      - '**.sch'
-      - '**.kicad_pcb'
-      - '**.net'
 
 jobs:
   example:
